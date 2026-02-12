@@ -1,0 +1,28 @@
+[theme]
+font = "sans-serif"
+base = "light"
+primaryColor = "#DB011C"
+baseRadius = "0px"
+baseFontSize = 14
+headingFontWeights = 700
+chartCategoricalColors = [
+    "#DB011C", # MKT red
+    "#F88379", # Coral Pink
+    "#ff2b2b", # red80
+    "#A52A2A", # Brown
+    "#FF0000", # Red
+    "#800020", # Burgundy
+    "#FF4433", # Red Orange
+    "#ffabab", # red40
+    "#EE4B2B", # Bright Red
+    "#722F37", # Wine
+    "#FA5F55", # Sunset Orange
+]
+
+
+[theme.sidebar]
+font = "sans-serif"
+primaryColor = "#DB011C"
+# secondaryBackgroundColor = "#DB011C"
+secondaryBackgroundColor = "#000000"
+showWidgetBorder = true

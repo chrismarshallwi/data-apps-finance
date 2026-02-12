@@ -1,0 +1,89 @@
+- name: Home
+  pages:
+    - page: pages/home.py
+      title: Home
+      icon: ":material/home:"
+      default: true
+      header: Home
+      caption: Welcome to the Home page of the Streamlit app
+      help_page: null
+    - page: pages/user.py
+      title: "{user_id}"
+      icon: ":material/person:"
+      header: User Profile
+      caption: View and edit your user profile
+      help_page: null
+- name: Data
+  pages:
+    - page: pages/search_data_popover.py
+      title: Search data 1
+      icon: ":material/search:"
+      header: Search Data
+      caption: Search using popover filters
+      help_page: pages/help/filter_data.md
+      roles:
+        - admin
+        - user
+    - page: pages/search_data_container.py
+      title: Search data 2
+      icon: ":material/search:"
+      header: Search Data
+      caption: Search data using inline filters
+      help_page: pages/help/filter_data.md
+      roles:
+        - admin
+        - user
+    - page: pages/edit_data.py
+      title: Edit data
+      icon: ":material/edit:"
+      header: Edit data
+      caption: Edit USD -> CAN conversion rates
+      help_page: pages/help/edit_data.md
+      roles:
+        - admin
+        - user
+    - page: pages/calculated_column.py
+      title: Calculated Column
+      icon: ":material/calculate:"
+      header: Calculated Column
+      caption: Automatically calculate a table column based of other columns
+      help_page: pages/help/edit_data.md
+      roles:
+        - admin
+        - user
+- name: Workflows
+  pages:
+    - page: pages/multi_step_vertical.py
+      title: Multi-step v
+      icon: ":material/format_list_numbered:"
+      header: Multistep operation
+      caption: Step-by-step operation using vertical alignment
+      help_page: null
+      roles:
+        - admin
+        - user
+    - page: pages/multi_step_tab.py
+      title: Multi-step h
+      icon: ":material/steppers:"
+      header: Multistep operation
+      caption: Step-by-step operation using horizontal alignment
+      help_page: null
+      roles:
+        - admin
+        - user
+    - page: pages/send_email.py
+      title: Send Email
+      icon: ":material/mail:"
+      header: Send Email
+      caption: Send a confirmation email
+      help_page: null
+      roles:
+        - writer
+    - page: pages/confirm_email.py
+      title: Confirm Email
+      icon: ":material/mail:"
+      header: Confirm Email
+      caption: Confirm your email has been sent
+      help_page: null
+      roles:
+        - user

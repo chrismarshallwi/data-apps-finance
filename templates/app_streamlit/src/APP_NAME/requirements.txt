@@ -1,0 +1,7 @@
+databricks-sdk
+databricks-connect
+pandas
+streamlit
+azure-communication-email
+pydantic
+pyyaml

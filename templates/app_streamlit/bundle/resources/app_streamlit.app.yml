@@ -1,0 +1,12 @@
+resources:
+  apps:
+    AOO_NAME:
+      name: APP_NAME
+      description: "Template for all Streamlit apps"
+      source_code_path: ../../src/APP_NAME
+      # resources:
+      #   - name: "sql-warehouse"
+      #     description: "A SQL warehouse for app to be able to work with"
+      #     sql_warehouse:
+      #       id: "66d280fdb503c11f"
+      #       permission: "CAN_USE"
